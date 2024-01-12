@@ -4,7 +4,6 @@ import 'package:vodafone_ui/components/home_grid_item.dart';
 import 'package:vodafone_ui/components/home_list_item.dart';
 import 'package:vodafone_ui/shared/app_styles.dart';
 import 'package:vodafone_ui/shared/constants.dart';
-import 'package:vodafone_ui/shared/extensions/string_extensions.dart';
 import 'package:vodafone_ui/shared/extensions/widget_extensions.dart';
 
 class ListHomePage extends StatefulWidget {
@@ -18,24 +17,6 @@ class _ListHomePageState extends State<ListHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        leading: Padding(
-          padding: const EdgeInsets.only(left: 30),
-          child: Image.asset(AppIcons.vodafoneIconPng),
-        ),
-        actions: [
-          Padding(
-            padding: const EdgeInsets.only(right: 30),
-            child: Image.asset(AppIcons.notificationIcon),
-          )
-        ],
-        toolbarHeight: 80,
-        centerTitle: true,
-        title: Text(
-          "Kisa".greetFirstName,
-          style: AppStyles().appbarTitle,
-        ),
-      ),
       body: ListView(
         padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 20),
         children: [
