@@ -43,7 +43,7 @@ class _ListHomePageState extends State<ListHomePage> {
                     Image.asset(AppIcons.cediIcon),
                     3.0.sbW,
                     Text(
-                      "4.32",
+                      "${AppStrings.airtimeBalance}",
                       style: AppStyles().cardTitle,
                     ),
                   ],
