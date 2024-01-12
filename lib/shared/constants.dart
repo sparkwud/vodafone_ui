@@ -6,6 +6,7 @@ class AppStrings {
   static const usedData = 97.34;
   static const remainingData = 40.34;
   static const totalData = 150.00;
+  static const airtimeBalance = 4.32;
 }
 
 class AppColors {
