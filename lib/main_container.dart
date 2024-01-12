@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:vodafone_ui/screens/bundles_screen.dart';
 import 'package:vodafone_ui/screens/cash_screen.dart';
-import 'package:vodafone_ui/screens/grid_homepage.dart';
-import 'package:vodafone_ui/screens/list_homepage.dart';
+import 'package:vodafone_ui/screens/homepage.dart';
+import 'package:vodafone_ui/screens/services_screen.dart';
 import 'package:vodafone_ui/screens/settings_screen.dart';
 import 'package:vodafone_ui/shared/constants.dart';
 
@@ -15,10 +15,9 @@ class MainContainer extends StatefulWidget {
 
 class _HomePageState extends State<MainContainer> {
   List<Widget> screens = const [
-    // ServicesScreen(),
-    ListHomePage(),
+    ServicesScreen(),
     CashScreen(),
-    GridHomePage(),
+    HomePage(),
     BundlesScreen(),
     SettingsScreen(),
   ];
