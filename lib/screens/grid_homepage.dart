@@ -36,7 +36,7 @@ class _GridHomePageState extends State<GridHomePage> {
                 ),
                 subtitle: RichText(
                   text: TextSpan(
-                    text: '20.34 ',
+                    text: '${AppStrings.remainingData} ',
                     // style: TextStyle(fontSize: 15, color: Colors.black),
                     style: AppStyles().cardTitle,
                     children: const <TextSpan>[
@@ -62,7 +62,7 @@ class _GridHomePageState extends State<GridHomePage> {
                     Image.asset(AppIcons.cediIcon),
                     3.0.sbW,
                     Text(
-                      "4.32",
+                      "${AppStrings.airtimeBalance}",
                       style: AppStyles().cardTitle,
                     ),
                   ],
